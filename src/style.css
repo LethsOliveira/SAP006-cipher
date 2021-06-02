@@ -1,1 +1,38 @@
 /* css */
+body {
+    background-color: #d6d4e0;
+
+}
+
+h1 {
+    text-align: center;
+    color: #5b9aa0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
+}
+
+h2 {
+    text-align: center;
+    color:;
+
+}
+
+img {
+    width: auto;
+    display: inline-block;
+    align-items: center;
+    height: auto;
+    border: 10px, solid, green;
+    margin: 20%;
+    }
+
+.introduction {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+
+.start {
+    
+}
