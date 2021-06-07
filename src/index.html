@@ -6,13 +6,16 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="root">
+  
+  <section id="root">
     <h1>Criptografe-se</h1>
     <h2>Criptografe Seu Diário</h2>
-  </div>
+  </section>
 
-  <img src="images/locked diary.png">
-  
+  <section id="image">
+    <img src="images/locked diary.png">
+  </section>
+
   <section id="introduction">
       <p> Cansade de ter todo mundo louco pra ler seu diário e 
         descobrir o que acontece na sua vida?
@@ -32,7 +35,42 @@
   </section>
 
   <section id="start">
-    <button id="start">Vamos começar?</button>
+    <button id="startButton">Vamos começar?</button>
+  </section>
+
+  <section id="choosing">
+    <p> Escolha sua preferência
+    </p>
+    <form>
+      <input type="radio" id="encrypt" name="encrypt" value="encrypt">
+      <label for="encrypt">Encriptar</label>
+      <input type="radio" id="decrypt" name="encrypt" value="decrypt">
+      <label for="encrypt">Descriptar</label>
+    </form>
+    
+    <p>Qual é o intervalo que quer utilizar?
+    </p>
+    <section id="numberOfLetters">
+      <form>
+        <input type="text" id="numberToCipher" name="numberToCipher" value="Número"></imput>
+        <button id="goButton">Vamos Lá!</button>
+      </form>
+    </section>
+  </section>
+
+  <section id="encryptForm">
+    <form>
+      <textarea name="encryptDiary" rows="20" cols="100">Escreva Seu Diário Aqui</textarea>
+      <button id="encryptButton" class="btn">Encriptografar</button>
+      <button id="copeButton" class="btn">Copiar</button>
+    </form>
+  </section>
+
+  <section id="decryptForm">
+    <form>
+      <textarea name="decryptTraslator" rows="20" cols="100">Traduza Seu Diário Aqui</textarea>
+      <button id="decryptButton" class="btn">Descriptografar</button>
+    </form>
   </section>
  
   <script src="index.js" type="module"></script>
