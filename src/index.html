@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  
+
   <section id="root">
     <h1>Criptografe-se</h1>
     <h2>Criptografe Seu Diário</h2>
@@ -17,25 +19,28 @@
   </section>
 
   <section id="introduction">
-      <p> Cansade de ter todo mundo louco pra ler seu diário e 
-        descobrir o que acontece na sua vida?
-      </p>
-      <p> Você até tentou migrar para o diário digital e mesmo assim 
-        ainda ninguém respeita o seu espaço?
-      </p>
-      <p> Conheça agora o seu encriptador particular!
-      </p>
-      <p>Com o Criptografe-se, você consegue codificar todo o seu relato 
-        dentro da Cifra de César e copiar e colar em seu diário digital.
-      </p>
-      <p> Quando quiser reler seu diário, basta clicar em Descodificar na 
-        próxima tela, selecionar o intervalo e inserir o relato.
-      </p>
-      <p>Simples assim!</p>
+    <p> Cansade de ter todo mundo louco pra ler seu diário e
+      descobrir o que acontece na sua vida?
+    </p>
+    <p> Você até tentou migrar para o diário digital e mesmo assim
+      ainda ninguém respeita o seu espaço?
+    </p>
+    <p> Conheça agora o seu encriptador particular!
+    </p>
+    <p>Com o Criptografe-se, você consegue codificar todo o seu relato
+      dentro da Cifra de César e copiar e colar em seu diário digital.
+    </p>
+    <p> Quando quiser reler seu diário, basta clicar em Descodificar na
+      próxima tela, selecionar o intervalo e inserir o relato.
+    </p>
+    <p>Simples assim!</p>
   </section>
 
   <section id="start">
     <button id="startButton">Vamos começar?</button>
+    <a>
+
+    </a>
   </section>
 
   <section id="choosing">
@@ -45,22 +50,23 @@
       <input type="radio" id="encrypt" name="encrypt" value="encrypt">
       <label for="encrypt">Encriptar</label>
       <input type="radio" id="decrypt" name="encrypt" value="decrypt">
-      <label for="encrypt">Descriptar</label>
+      <label for="decrypt">Descriptar</label>
     </form>
-    
-    <p>Qual é o intervalo que quer utilizar?
-    </p>
-    <section id="numberOfLetters">
-      <form>
-        <input type="text" id="numberToCipher" name="numberToCipher" value="Número"></imput>
-        <button id="goButton">Vamos Lá!</button>
-      </form>
-    </section>
-  </section>
+</section>
+
+<p>Qual é o intervalo que quer utilizar?
+</p>
+<section id="numberOfLetters">
+  <form >
+    <input type="number" id="numberToCipher" name="numberToCipher"></input>
+    <button id="goButton">Vamos Lá!</button>
+  </form>
+</section>
+</section>
 
   <section id="encryptForm">
     <form>
-      <textarea name="encryptDiary" rows="20" cols="100">Escreva Seu Diário Aqui</textarea>
+      <textarea id="encryptDiary" rows="20" cols="100">Escreva Seu Diário Aqui</textarea>
       <button id="encryptButton" class="btn">Encriptografar</button>
       <button id="copeButton" class="btn">Copiar</button>
     </form>
@@ -68,11 +74,12 @@
 
   <section id="decryptForm">
     <form>
-      <textarea name="decryptTraslator" rows="20" cols="100">Traduza Seu Diário Aqui</textarea>
+      <textarea name="decryptDiary" rows="20" cols="100">Traduza Seu Diário Aqui</textarea>
       <button id="decryptButton" class="btn">Descriptografar</button>
     </form>
   </section>
- 
+
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
