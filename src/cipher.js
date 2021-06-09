@@ -7,31 +7,31 @@ const cipher = {
         let encodeResult = ((ascNumberEncode + 65 + offset) % 26) + 65;
         result += String.fromCharCode(encodeResult);
       } else if (ascNumberEncode >= 97 && ascNumberEncode <= 122) {
-        let encodeResult = 122 - ((122 - ascNumberEncode + offset) % 26);
-        result += string.fromCharCode(encodeResult);
+        let encodeResult = ((ascNumberEncode + 97 + offset) % 26) + 97;
+        result += String.fromCharCode(encodeResult);
+      } else {
+        result += string[i];
+      }
+    }
+    return result;
+  },
+
+  decode: function (offset, string) {
+    let result = "";
+    for (let i = 0; i < string.length; i++) {
+      let ascNumberDecode = string[i].charCodeAt();
+      if (ascNumberDecode >= 65 && ascNumberDecode <= 90) {
+        let decodeResult = ((ascNumberDecode + 65 + offset) % 26) + 65;
+        result += String.fromCharCode(decodeResult);
+      } else if (ascNumberDecode >= 97 && ascNumberDecode <= 122) {
+        let decodeResult = ((ascNumberDecode + 97 + offset) % 26) + 97;
+        result += String.fromCharCode(decodeResult);
       } else {
         result += string[i];
       }
     }
     return result;
   }
-  decode: function (offset, string) {
-    let result = "";
-    for (let i = 0; i < string.length; i++) {
-      let ascNumberDecode = string[i].charCodeAt();
-      if (ascNumberDecode >= 65 && ascNumberDecode <= 90) {
-        let decodeResult = ((ascNumberDecode + 65 - offset) % 26) + 65;
-        result += string.fromCharCode(decodeResult);
-      } else if (ascNumberDecode >= 97 && ascNumberDecode <= 122) {
-        let decodeResult = 122 - ((122 - ascNumberDecode + offset) % 26);
-        result += string.fromCharCode(decodeResult);
-      } else {
-        result += string[i];
-      }
-      return result;
-    }
-  }
-const alphabetUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXZ";
-  const alphabetLowerCase = "abcdefghijklmnopqrstuvwxz";
-  const space = " ";
-  export default cipher;
+}
+
+export default cipher;
