@@ -8,25 +8,24 @@
 </head>
 
 <body>
-    <section id="choosing">
-        <p> Escolha sua preferência
-        </p>
-        <form>
-          <input type="radio" id="encrypt" name="encrypt" value="encrypt">
-          <label for="encrypt">Encriptar</label>
-          <input type="radio" id="decrypt" name="encrypt" value="decrypt">
-          <label for="decrypt">Descriptar</label>
-        </form>
-    </section>
-
-    <p>Qual é o intervalo que quer utilizar?
+  <section id="choosing">
+    <p> Escolha sua preferência
     </p>
-    <section id="numberOfLetters">
-      <form >
-        <input type="text" id="numberToCipher" name="numberToCipher" value="Número"></input>
-        <button id="goButton">Vamos Lá!</button>
-      </form>
-    </section>
-  </section>
+
+    <nav class=encrypt>
+      <ul>
+        <li>
+          <a href="encrypt.html">
+            <button id="choosingCode" class="btn">Encriptografar</button>
+          </a>
+          <a href="decrypt.html">
+            <button id="choosingDecode" class="btn">Descriptografar</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="index.js" type="module"></script>
 
 </body>
+</html>

@@ -21,10 +21,10 @@ const cipher = {
     for (let i = 0; i < string.length; i++) {
       let ascNumberDecode = string[i].charCodeAt();
       if (ascNumberDecode >= 65 && ascNumberDecode <= 90) {
-        let decodeResult = ((ascNumberDecode + 65 + offset) % 26) + 65;
+        let decodeResult = 90 - ((90 - ascNumberDecode + offset) % 26);
         result += String.fromCharCode(decodeResult);
       } else if (ascNumberDecode >= 97 && ascNumberDecode <= 122) {
-        let decodeResult = ((ascNumberDecode + 97 + offset) % 26) + 97;
+        let decodeResult = 122 - ((122 - ascNumberDecode + offset) % 26);
         result += String.fromCharCode(decodeResult);
       } else {
         result += string[i];

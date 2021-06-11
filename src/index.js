@@ -1,21 +1,5 @@
 import cipher from './cipher.js';
 
-/*
-let numerOfLetters = document.getElementById("choosing");
-let start = document.getElementById("startButton").click();
-
-function choosingElement (){
-    let choosingEncrypt = document.getElementById("encrypt").click()
-    
-    if ( choosingEncrypt === true && codeOffset >= 0){
-                
-    }
-} 
-
-let choosingDecrypt = document.getElementById("decrypt").click();
-let choosing = document.getElementById("goButton").click();
-*/
-
 
 let encryptButton = document.getElementById("encryptButton");
 encryptButton.onclick = function (eventCode) {
