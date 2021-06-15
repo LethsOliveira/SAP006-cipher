@@ -9,3 +9,9 @@ encryptButton.onclick = function (eventCode) {
 }
 
 //const copyButton.addEventListener(click, ()){
+    
+/*let copyText (){
+    const inputText = document.getElementById("encryptDiary").value;
+    inputText.select();
+    document.execCommand('copy');
+}*/
