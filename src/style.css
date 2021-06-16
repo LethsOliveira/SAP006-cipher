@@ -1,48 +1,75 @@
 /* css */
 body {
     background-color: #d6d4e0;
-    display: inline-block;
+    text-align: center;
 }
 
-h1 {
+#root {
     text-align: center;
     color: #5b9aa0;
-    size: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
-}
-
-h2 {
-    text-align: center;
-    color: #5b9aa0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
+    size: 96px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
 }
 
 #image {
     display: inline-block;
-    padding: 50px;
-    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: auto;
     height: auto;
-    border: darkblue;
-    margin: auto;
     }
 
 #introduction {
     display: inline-block;
-    block-size: 25px;
     height: auto;
     width: 60%;
     font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
     color: darkblue;
     text-align: justify;
-    padding: 5px;
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
-#start {
+.btn {
     border: 10px solid transparent;
+    align-items: center;
     padding: 100px, 100px;
     border-radius: 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
     color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+    height: fit-content;
+}
+
+.btn:active{
+    position: relative;
+    top: 2px;
+}
+
+#about {
+    height: auto;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: darkblue;
+    text-align: justify;
+    line-height: 1.35;
+    position: relative;
+    bottom: 0;
+}
+
+#choosing {
+    display: inline;
+    height: auto;
+    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: darkblue;
+    text-align: center;
+    line-height: 1.35;
 }
