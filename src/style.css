@@ -71,5 +71,75 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
     color: darkblue;
     text-align: center;
-    line-height: 1.35;
+    line-height: 1.8;
+    margin: 50px;
+}
+
+.encrypt {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.decrypt {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#imageChoosing {
+    display: block;
+}
+
+#encryptForm {
+    display: block;
+    height: auto;
+    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: darkblue;
+    text-align: left;
+    line-height: 1.8;
+    margin: 50px;
+}
+
+#numberToCipher {
+    display: block;
+    margin-bottom: 10px;
+    border: 10px solid transparent;
+    align-items: center;
+    padding: 100px, 100px;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+    height: fit-content;
+}
+
+#encryptDiary {
+    border: 10px solid transparent;
+    align-items: center;
+    padding: 100px, 100px;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+    height: fit-content;
+}
+
+.encryptButton {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.copyButton {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }

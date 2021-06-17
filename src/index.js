@@ -8,10 +8,8 @@ encryptButton.onclick = function (eventCode) {
     eventCode.preventDefault();
 }
 
-//const copyButton.addEventListener(click, ()){
-    
-/*let copyText (){
-    const inputText = document.getElementById("encryptDiary").value;
-    inputText.select();
-    document.execCommand('copy');
-}*/
+const copeButton = document.getElementById("copyButton");
+copeButton.onclick = function (){
+    document.getElementById("encryptDiary").select();
+    document.execCommand("copy");
+}
