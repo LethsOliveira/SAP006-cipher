@@ -9,7 +9,7 @@ encryptButton.onclick = function (eventCode) {
 }
 
 const copeButton = document.getElementById("copyButton");
-copeButton.onclick = function (){
+copeButton.onclick = function () {
     document.getElementById("encryptDiary").select();
     document.execCommand("copy");
 }

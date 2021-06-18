@@ -8,3 +8,8 @@ decryptButton.onclick = function (eventDecode) {
     document.getElementById("decryptDiary").value = cipher.decode(decodeOffset, decryptText);
 }
 
+const copeButton = document.getElementById("copyButton");
+copeButton.onclick = function () {
+    document.getElementById("encryptDiary").select();
+    document.execCommand("copy");
+}
