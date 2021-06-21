@@ -1,0 +1,183 @@
+/* css */
+body {
+    background-color: #d6d4e0;
+    text-align: center;
+}
+
+#root {
+    text-align: center;
+    color: #5b9aa0;
+    size: 96px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+}
+
+#image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    width: auto;
+    height: auto;
+}
+
+
+#introduction {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: #10474d;
+    text-align: justify;
+    line-height: 1.35;
+}
+
+.btn {
+    border: 10px solid transparent;
+    align-items: center;
+    padding: 100px, 100px;
+    border-radius: 100px;
+    color: #10474d;;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width: 400px;
+    height: fit-content;
+}
+
+.btn:active{
+    position: relative;
+    top: 2px;
+}
+
+#about {
+    height: auto;
+    width: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: #10474d;
+    text-align: justify;
+    line-height: 1.35;
+    position: relative;
+    bottom: 0;
+}
+
+#choosing {
+    display: inline;
+    height: auto;
+    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: #10474d;
+    text-align: center;
+    line-height: 1.8;
+    margin: 50px;
+}
+
+.encrypt {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.decrypt {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#imageChoosing {
+    display: block;
+}
+
+#encryptForm {
+    display: block;
+    height: fit-content;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: #10474d;
+    line-height: 1.8;
+}
+
+#numberToCipher {
+    border: 10px solid transparent;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor:text;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+#encryptDiary {
+    border: 10px solid transparent;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor:text;
+    width: 500px;
+}
+
+#encryptButton {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#copyButton {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.return {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#decryptForm {
+    display: block;
+    height: fit-content;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, monospace;
+    color: #10474d;
+    line-height: 1.8;
+}
+
+#numberToDecode {
+    border: 10px solid transparent;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor:text;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+#decryptDiary {
+    display: block;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    color: #5b9aa0;
+    font-family:'Indie Flower', cursive;
+    font-size: large;
+    font-weight: bold;
+    cursor:text;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#decryptButton {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
