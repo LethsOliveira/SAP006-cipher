@@ -14,7 +14,7 @@
 
 Este projeto foi desenvolvido pela Leths Oliveira como parte do Bootcamp da Turma 06 da Laboratória Brazil!  
 O desafio era trabalhar com códigos HTML, CSS e JS de uma forma que a aplicação realize a Cifra de César para o usuário!  
-Bateu uma curiosidade para saber o que é a Cifra de César? Basta clicar [aqui](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+Bateu uma curiosidade para saber o que é a Cifra de César? Basta clicar [aqui](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar).
 
 
 ## 2. O que é o Criptografe-se?  
